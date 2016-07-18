@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   # post 'posts', to:'posts#create'
   
   resources :posts
+  root to: 'posts#index'
   
 end
